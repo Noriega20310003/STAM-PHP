@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+        
+        <!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="/sc/Css/Stylesheet.css" rel="stylesheet" type="text/css" />
+        <title>Registrate</title>
+    </head>
+<body>
+    <div class="dicenter">
+        <section>
+            <a href="/Form.php">
+                Login
+            </a>
+        </section>
+        <section>
+            <form action="/login.php" method="post">
+                <div class="form_tab">
+                    <div class="stepHeader" data-a11y-focus="true" >
+                        <h1 class="stepTitle" data-uia="stepTitle">Inicia Secion Con Tu cuenta </h1>
+                    </div>
+                    <ul class="simpleForm structural ui-grid">
+                        <li  class="nfFormSpace">
+                            <div class="cardNumberContainer">
+                                <div class="nfInput nfInputOversize">
+                                    <div class="nfInputPlacement">
+                                        <label class="input_id" placeholder="creditCardNumber">
+                                            <input name="Correo" class="nfTextField" id="id_Correo" type="email"  maxlength="100" minlength="1" >
+                                            <label for="id_Correo" class="placeLabel1">Correo electronico</label>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li  class="nfFormSpace">
+                            <div class="cardNumberContainer">
+                                <div class="nfInput nfInputOversize">
+                                    <div class="nfInputPlacement">
+                                        <label class="input_id" placeholder="creditCardNumber">
+                                            <input name="Cont" class="nfTextField" id="id_Cont" type="password"  maxlength="19" minlength="1" >
+                                            <label for="id_Cont" class="placeLabel1">Contraseña</label>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="submitBtnContainer">
+                    <button type="submit"  class="nf-btn nf-btn-primary nf-btn-solid nf-btn-oversize" placeholder="">Guardar</button>
+                </div>
+                <p>¿No tienes cuenta? <a href="Form.php" style="background-color: brown;" class="link">Registrate</a></p>
+            </form>
+        </section>
+    </div>
+    
+        
+        
+      
+</body>
+</html>
